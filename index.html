@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Haven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-container">
+      <img src="images/book-haven-logo.png" alt="Book Haven Logo" class="logo">
+      <h1>Book Haven</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="staff-picks.html">Staff Picks</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html" class="view-cart-btn">View Cart</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section with Banner -->
+    <section class="hero">
+      <img src="images/bookshelf-banner.jpg" alt="Bookshelf Banner" class="hero-banner">
+      <h2>Welcome to Book Haven</h2>
+      <p>Your one-stop destination for the best books across all genres. Browse our collection and find your next great read!</p>
+      <a href="gallery.html" class="btn">Browse Collection</a>
+    </section>
+
+    <!-- Book Categories Section -->
+    <section class="categories">
+      <h2>Book Categories</h2>
+      <div class="category-container">
+        <a href="gallery.html?category=fiction" class="category-btn">Fiction</a>
+        <a href="gallery.html?category=non-fiction" class="category-btn">Non-Fiction</a>
+        <a href="gallery.html?category=bestsellers" class="category-btn">Bestsellers</a>
+        <a href="gallery.html?category=magazines" class="category-btn">Magazines</a>
+      </div>
+    </section>
+
+    <!-- Promotions Section -->
+    <section class="promotions">
+      <h2>On Sale! (Promotions)</h2>
+      <a href="gallery.html?category=promotions" class="btn promotions-btn">View Promotions</a>
+    </section>
+
+    <!-- Newsletter Signup in Footer could also be added here if desired -->
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <p>Store Hours: Mon-Fri 9 AM - 8 PM | Sat 10 AM - 6 PM | Sun 11 AM - 5 PM</p>
+      <p>Contact: <a href="mailto:support@bookhaven.com">support@bookhaven.com</a> | (555) 123-4567</p>
+    </div>
+    <div class="newsletter">
+      <h3>Subscribe to our Newsletter</h3>
+      <form action="#" method="POST">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+
+</body>
+</html>

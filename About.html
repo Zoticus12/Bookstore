@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - Book Haven</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <img src="images/book-haven-logo.png" alt="Book Haven Logo" class="logo">
+      <h1>Book Haven</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="staff-picks.html">Staff Picks</a></li>
+        </ul>
+      </nav>
+      <a href="cart.html" class="view-cart-btn">View Cart</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="about-section">
+      <h2>About Book Haven</h2>
+      <p>Book Haven is an independent bookstore dedicated to connecting readers with stories that inspire and inform. Founded in 2005, we offer a carefully curated selection of books from various genres.</p>
+      <h3>Our History</h3>
+      <p>We started as a small family business and have grown into a beloved bookstore in the community.</p>
+      <h3>Customer Feedback</h3>
+      <form id="feedback-form">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Submit Feedback</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-top">
+      <p>Store Hours: Mon-Fri 9 AM - 8 PM | Sat 10 AM - 6 PM | Sun 11 AM - 5 PM</p>
+      <p>Contact: <a href="mailto:support@bookhaven.com">support@bookhaven.com</a> | (555) 123-4567</p>
+    </div>
+    <div class="newsletter">
+      <h3>Subscribe to our Newsletter</h3>
+      <form action="#" method="POST">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
